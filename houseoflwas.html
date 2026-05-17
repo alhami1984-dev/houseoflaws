@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>HouseOfLaws.com – Premium Legal Domain For Sale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="HouseOfLaws.com – premium legal brand domain name for law firms, legal consultancies, and online legal platforms. Domain is for sale." />
+
+<style>
+/* ROOT COLORS */
+:root {
+  --bg-dark: #050608;
+  --bg-section: #0c0f14;
+  --gold: #d4af37;
+  --gold-soft: #f0d98a;
+  --text-main: #f5f5f5;
+  --text-muted: #a0a4b0;
+  --accent: #1f2933;
+  --danger: #e63946;
+  --border: #222733;
+  --font-main: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font-main);
+  background: radial-gradient(circle at top, #111827 0, #020308 55%, #000 100%);
+  color: var(--text-main);
+  line-height: 1.6;
+}
+
+a { color: inherit; text-decoration: none; }
+
+.page {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 32px 16px 64px;
+}
+
+/* GOLD GLOW ANIMATION */
+@keyframes goldGlow {
+  0% { box-shadow: 0 0 0px rgba(212,175,55,0.0); }
+  50% { box-shadow: 0 0 18px rgba(212,175,55,0.7); }
+  100% { box-shadow: 0 0 0px rgba(212,175,55,0.0); }
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--gold);
+}
+
+.logo-text {
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* BADGE WITH GLOW */
+.badge-for-sale {
+  padding: 8px 16px;
+  border-radius: 999px;
+  border: 2px solid var(--danger);
+  color: var(--danger);
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  animation: goldGlow 2.4s ease-in-out infinite;
+}
+
+/* CONTACT BOX — MOVED TO HERO RIGHT SIDE */
+.contact-overlay {
+  background: rgba(0,0,0,0.55);
+  padding: 14px 22px;
+  border-radius: 12px;
+  border: 1px solid var(--gold);
+  backdrop-filter: blur(6px);
+  text-align: center;
+  color: var(--gold-soft);
+  font-size: 14px;
+  line-height: 1.4;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  margin-bottom: 18px;
+}
+
+.contact-overlay strong {
+  color: var(--gold);
+  font-size: 15px;
+}
+
+/* HERO */
+.hero {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2.5fr);
+  gap: 32px;
+  align-items: start;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 800px) {
+  .hero { grid-template-columns: 1fr; }
+}
+
+/* CARD */
+.hero-card {
+  background: radial-gradient(circle at top, #111827 0, #020308 60%);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 20px 18px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.55);
+  position: relative;
+  overflow: hidden;
+}
+
+/* SECTIONS */
+section {
+  background: rgba(6, 10, 18, 0.9);
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+
+/* CONTACT SECTION */
+.contact-block {
+  font-size: 13px;
+  display: grid;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.contact-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.contact-link {
+  color: var(--gold-soft);
+}
+
+/* QR BLOCK */
+.qr-wrapper {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
+.qr-box {
+  background: #020308;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  padding: 10px;
+}
+
+.qr-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.qr-text {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+/* PREMIUM FOOTER BAR */
+footer {
+  margin-top: 24px;
+  font-size: 11px;
+  color: var(--text-muted);
+  text-align: center;
+}
+
+.footer-bar {
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: radial-gradient(circle at top, rgba(212,175,55,0.18), rgba(5,6,8,0.95));
+  border: 1px solid rgba(212,175,55,0.5);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  color: var(--gold-soft);
+}
+
+.footer-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #22c55e;
+}
+</style>
+</head>
+
+<body>
+
+<div class="page">
+
+<header>
+  <div class="logo">
+    <div class="logo-mark">HL</div>
+    <div class="logo-text">HouseOfLaws.com</div>
+  </div>
+
+  <div class="badge-for-sale">DOMAIN FOR SALE</div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <!-- LEFT SIDE -->
+    <div>
+      <div class="hero-kicker">Premium legal brand domain</div>
+
+      <h1 class="hero-title">
+        <span>HouseOfLaws.com</span><br />
+        A powerful name for serious law brands.
+      </h1>
+
+      <p class="hero-subtitle">
+        A short, memorable, and authoritative .COM domain ideal for law firms, legal consultancies,
+        and online legal platforms looking to build a global presence.
+      </p>
+
+      <div class="hero-domain-pill">
+        <strong>HouseOfLaws.com</strong>
+        <span>.COM</span>
+      </div>
+
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary">Inquire about this domain →</a>
+        <a href="#contact" class="btn btn-outline">Make an offer</a>
+      </div>
+
+      <div class="hero-note">
+        Serious inquiries only. Ideal for premium legal, regulatory, or governmental projects.
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <aside>
+
+      <!-- CONTACT BOX MOVED HERE -->
+      <div class="contact-overlay">
+        <strong>Email:</strong> a_al_hami@hotmail.com<br>
+        <strong>Phone:</strong> +966558149495<br>
+        <strong>WhatsApp:</strong> +966558149495
+      </div>
+
+      <!-- DOMAIN CARD -->
+      <div class="hero-card">
+        <div class="hero-card-inner">
+          <div class="hero-card-header">
+            <div class="hero-card-title">Domain overview</div>
+            <div class="hero-card-chip">Premium Legal Brand</div>
+          </div>
+
+          <div class="hero-domain-main">HouseOfLaws.com</div>
+          <div class="hero-domain-sub">Global-ready identity for law, policy, and regulation.</div>
+        </div>
+      </div>
+
+    </aside>
+
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact">
+    <h2><span class="icon">📩</span>Contact the owner</h2>
+
+    <p class="section-sub">
+      To discuss pricing or make an offer, use the contact details below.
+    </p>
+
+    <div class="contact-block">
+      <div>
+        <div class="contact-label">Email</div>
+        <a href="mailto:a_al_hami@hotmail.com" class="contact-link">a_al_hami@hotmail.com</a>
+      </div>
+
+      <div>
+        <div class="contact-label">Phone</div>
+        <span>+966558149495</span>
+      </div>
+
+      <div>
+        <div class="contact-label">WhatsApp</div>
+        <span>+966558149495</span>
+      </div>
+    </div>
+
+    <!-- QR CODE FOR WHATSAPP -->
+    <div class="qr-wrapper">
+      <div class="qr-box">
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://wa.me/966558149495" alt="WhatsApp QR Code">
+      </div>
+      <div class="qr-text">
+        Scan this QR code to open a WhatsApp chat directly with the owner of <strong>HouseOfLaws.com</strong>.
+      </div>
+    </div>
+
+  </section>
+
+</main>
+
+<footer>
+  © <span id="year"></span> HouseOfLaws.com – Premium legal domain name. All rights reserved.
+
+  <div class="footer-bar">
+    <span class="footer-dot"></span>
+    <span>Premium legal brand domain • Direct owner sale • WhatsApp & email support available</span>
+  </div>
+</footer>
+
+</div>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
